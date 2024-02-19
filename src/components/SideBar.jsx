@@ -202,6 +202,8 @@ export default function SideBar({ open, handleDrawerClose }) {
                   minHeight: 48,
                   justifyContent: open ? "initial" : "center",
                   px: 2.5,
+                  bgcolor:item.path === location.pathname ? theme.palette.mode ==="dark"? grey[800]:grey[400] : null
+
                 }}
               >
                 <ListItemIcon
@@ -233,6 +235,7 @@ export default function SideBar({ open, handleDrawerClose }) {
                   minHeight: 48,
                   justifyContent: open ? "initial" : "center",
                   px: 2.5,
+                  bgcolor:item.path === location.pathname ? theme.palette.mode ==="dark"? grey[800]:grey[400] : null
                 }}
               >
                 <ListItemIcon
