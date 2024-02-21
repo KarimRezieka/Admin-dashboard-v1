@@ -1,5 +1,12 @@
+import Pie from "./Pie";
+import Header from "../../Header";
+import { Box} from "@mui/material";
 export default function PieChart() {
   return (
-    <div>PieChart</div>
-  )
+  <Box>
+  <Header title="Pie Chart" subTitle="Simple Pie Chart" />
+
+  <Pie />
+</Box>
+  );
 }

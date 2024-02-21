@@ -6,9 +6,12 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Button from "@mui/material/Button";
 import { Stack } from "@mui/material";
+import Header from "../../Header";
 export default function Faq() {
   return (
     <Stack direction={"column"} gap={2}>
+            <Header title="FAQ" subTitle="Frequently Asked Questions Page" />
+
       {" "}
       <Accordion defaultExpanded>
         <AccordionSummary

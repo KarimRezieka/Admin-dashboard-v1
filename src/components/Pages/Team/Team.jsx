@@ -2,6 +2,7 @@ import { DataGrid } from '@mui/x-data-grid';
 import {rows} from './data.jsx';
 import { useTheme } from '@emotion/react';
 import { Box, Typography } from "@mui/material";
+import Header from '../../Header.jsx';
 import {
   AdminPanelSettingsOutlined,
   LockOpenOutlined,
@@ -89,7 +90,8 @@ export default function Team(){
   ];
   return (
     <div className="team" >
-      <h2>Team Page</h2>
+  <Header title={"TEAM"} subTitle={"Managing the Team Members"} />
+
       <Box style={{ height: 600, width: '98%',mx:"auto" }}>
       <DataGrid rows={rows} columns={columns} />
     </Box>

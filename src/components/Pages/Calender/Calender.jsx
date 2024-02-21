@@ -6,9 +6,11 @@ import { formatDate } from "@fullcalendar/core";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import "./calender.css"
+import Header from "../../Header";
 function renderEventContent(eventInfo) {
   return (
     <>
+          <Header title="DASHBOARD" subTitle="Welcome to you dashboard" />
       <b>{eventInfo.timeText}</b>
       <i>{eventInfo.event.title}</i>
     </>
