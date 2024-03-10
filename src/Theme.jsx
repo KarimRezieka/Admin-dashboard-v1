@@ -1,14 +1,6 @@
 export const getDesignTokens = (mode) => ({
-    palette: {
-      mode,
-      ...(mode === 'light'
-        ? {
-           
-          }
-        : {
-        
-          }),
-    },
-  });
- 
-  
+	palette: {
+		mode,
+		...(mode === 'light' ? {} : {}),
+	},
+})
