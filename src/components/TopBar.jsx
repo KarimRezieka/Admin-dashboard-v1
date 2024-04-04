@@ -94,7 +94,7 @@ export default function TopBar({ open, handleDrawerOpen, setMode }) {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant='h6' noWrap component='div'>
-						Mini variant drawer
+						Admin-Dashboard
 					</Typography>
 					<Search>
 						<SearchIconWrapper>
